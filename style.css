@@ -46,7 +46,7 @@ main {
 
     display: flex;
     flex-flow: column;
-    
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
     height: 84%;
@@ -63,6 +63,9 @@ main {
 }
 #title2 {
     color: #C8981F;
+}
+.dot {
+    letter-spacing: 5px;
 }
 .pics {
     
@@ -108,6 +111,14 @@ main {
     height: 40%;
     display: flex;
     flex-flow: column nowrap;
+}
+.btn-bottom {
+    border-radius: 50%;
+    width: 2vw;
+    border: 0px;
+    background-color: #C8981F;
+    padding: 5px;
+    transform: translateY(30vh);
 }
 /* Footer */
 footer {
